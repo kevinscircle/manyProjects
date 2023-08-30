@@ -1,21 +1,85 @@
+
+/* footer font  */
+
 .attribution { 
     font-family: 'Outfit', sans-serif;
     font-size: 11px; 
-    text-align: center; }
+    text-align: center; 
+  }
+
+/* font style */
   .outfit { 
-    
     font-size: 15px;
-    font-weight: 400, 700;
+    font-family: 'Outfit', sans-serif;
+    text-align: center; 
+    font-weight: 400;
+  }
+
+  .card-title{
+    font-weight: 700;
   }
 
   .container {
-    margin: 0 auto;
-    max-width: 940px; 
-    padding: 0 10px;
-    /* color: lightblue; */
-    background-color:hsl(216, 57%, 89%);
-  }
+    min-width: 375px;
+    max-width: 1440px;
+
+    /* having a difficult time with height and width of box ******* */
+    /* width: 100%;
+    height: 75%; */
+ 
+
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
   
+    /* margin: 120px 10px; */
+    padding: 100px 100px 100px 100px;
+    background-color:hsl(216, 57%, 89%);
+   
+  }
+
+  
+
+
+
+.card{
+  /* 
+  display: grid;
+  gap: 2rem; 
+  grid-template-columns: repeat(4, 1fr);  */
+    height: 450px;
+    display: inline-block; /* Added */
+    padding-top: 1%;
+   
+  
+}
+
+
+/* The image */
+.img-space{
+  padding: 2px 2px 2px 2px;
+  margin: 1px 2px 2px 2px;
+  height: 260px;
+  width: 260px;
+}
+
+.border-radius{
+  border-radius: 5%
+}
+
+ /* *{
+  border: 1px solid red;
+} */
+
+
+/* 
+body{
+  margin: 120px 60px 120px 60px;
+  padding: 0px 0px 0px 0px;
+} */
+
+
+
   /* .advertisement-card{
   padding: 20px;
   padding-top: 10%;
@@ -24,28 +88,3 @@
   grid-template-columns: repeat(4, 1fr); 
 } */
 
-/* * {
-  border: 1px solid red;
-} */
-
-.card{
-  /* padding: 2px;
-  padding-top: 10%;
-  display: grid;
-  gap: 2rem; 
-  grid-template-columns: repeat(4, 1fr);  */
-
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-  
-}
-
-.border-radius{
-  border-radius: 5%
-}
-
-.img-space{
-  padding: 10;
-  margin: 10 10 10;
-}
